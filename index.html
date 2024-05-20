@@ -7,39 +7,46 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <header>
-        <h1>Tu Nombre</h1>
-        <h2>Analista de Datos</h2>
+        <div class="container">
+            <div class="header-content">
+                <h1>Tu Nombre</h1>
+                <h2>Analista de Datos</h2>
+                <p>Breve descripción de tu perfil profesional: apasionado por la extracción de información valiosa y la generación de insights a partir de datos.</p>
+                <a href="about.html" class="btn">Conocer más</a>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section id="about">
-            <h3>Acerca de mí</h3>
-            <p>Breve descripción de tu perfil profesional y experiencia como analista de datos.</p>
-            <a href="about.html">Leer más</a>
-        </section>
-
-        <section id="projects">
-            <h3>Proyectos</h3>
-            <ul>
-                <li>
+        <section id="projects" class="container">
+            <h2>Proyectos Destacados</h2>
+            <div class="project-grid">
+                <div class="project">
                     <a href="projects/project1.html">
-                        <h4>Nombre del Proyecto 1</h4>
-                        <p>Breve descripción del proyecto 1.</p>
+                        <img src="assets/img/project1.jpg" alt="Proyecto 1">
+                        <div class="project-info">
+                            <h3>Nombre del Proyecto 1</h3>
+                            <p>Breve descripción del proyecto 1, destacando resultados clave.</p>
+                        </div>
                     </a>
-                </li>
-                <li>
+                </div>
+                <div class="project">
                     <a href="projects/project2.html">
-                        <h4>Nombre del Proyecto 2</h4>
-                        <p>Breve descripción del proyecto 2.</p>
+                        <img src="assets/img/project2.jpg" alt="Proyecto 2">
+                        <div class="project-info">
+                            <h3>Nombre del Proyecto 2</h3>
+                            <p>Breve descripción del proyecto 2, destacando resultados clave.</p>
+                        </div>
                     </a>
-                </li>
+                </div>
                 <!-- Agrega más proyectos aquí -->
-            </ul>
+            </div>
         </section>
 
-        <section id="skills">
-            <h3>Habilidades</h3>
+        <section id="skills" class="container">
+            <h2>Habilidades Clave</h2>
             <ul>
                 <li>Python</li>
                 <li>R</li>
@@ -49,8 +56,8 @@
             </ul>
         </section>
 
-        <section id="contact">
-            <h3>Contacto</h3>
+        <section id="contact" class="container">
+            <h2>Contacto</h2>
             <ul>
                 <li>Correo electrónico: tu_correo@ejemplo.com</li>
                 <li>LinkedIn: linkedin.com/in/tu_usuario</li>
@@ -60,7 +67,9 @@
     </main>
 
     <footer>
-        <p>© 2023 Tu Nombre</p>
+        <div class="container">
+            <p>© 2023 Tu Nombre</p>
+        </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
